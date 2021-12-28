@@ -10,6 +10,8 @@ const bcrypt = require('bcrypt');
 const multer = require('multer');
 // import path module
 const path = require('path');
+// import request module
+const request = require('request');
 // Create Express application
 const app = express();
 
